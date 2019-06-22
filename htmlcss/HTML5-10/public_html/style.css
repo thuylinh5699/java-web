@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 20, 2019, 1:38:50 AM
+    Author     : ThuyLinh
+*/
+body, p {
+    margin: 0;
+    padding: 0;
+}
+
+.debai {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+table {
+        white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    font-variant: normal;
+}
+tr {
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+}
