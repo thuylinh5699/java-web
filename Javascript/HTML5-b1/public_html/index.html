@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>May tinh don gian</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Javascript căn bản</h1>
+        <h2>Máy tính đơn giản</h2>
+        <form name="formx">
+            
+            <label>So thu 1: </label><input type="text" value="5" name="a"/>
+            <input class="size" type="button" value="+" onclick="a_plus_b(this.form)"/> 
+            <input type="button" value="-" onclick="a_minus_b(this.form)"></br></br>
+            <span>So thu 2: </span><input type="number" value="4" name="b"/>
+            <input type="button" value="*" onclick="a_times_b(this.form)">
+            <input type="button" value="/" onclick="a_div_b(this.form)"></br></br>
+            <span>Ket qua : </span><input type="text" value=" "/>
+        </form>
+        
+        <script LANGUAGE="JavaScript">
+            funtion a_plus_b(form) {
+                a=eval(form.a.value);
+                b=eval(form.b.value;
+                c=a+b;
+                form.ans.value = c;
+            }
+            funtion a_minus_b(form) {
+                a=eval(form.a.value);
+                b=eval(form.b.value;
+                c=a-b;
+                form.ans.value = c;
+
+            } 
+            funtion a_times_b(form) {
+                a=eval(form.a.value);
+                b=eval(form.b.value;
+                c=a*b;
+                form.ans.value = c;
+
+            }
+            funtion a_div_b(form) {
+                a=eval(form.a.value);
+                b=eval(form.b.value;
+                c=a/b;
+                form.ans.value = c;
+
+            }
+        </script>
+    </body>
+</html>
